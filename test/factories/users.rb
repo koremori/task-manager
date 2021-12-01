@@ -7,12 +7,12 @@ FactoryBot.define do
     avatar
     type { '' }
 
-    factory :developer do
-      type { 'Developer' }
-    end
-
     factory :admin do
       type { 'Admin' }
+    end
+
+    factory :developer do
+      type { 'Developer' }
     end
 
     factory :manager do
