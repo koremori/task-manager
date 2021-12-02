@@ -11,7 +11,7 @@ Rails.application.routes.draw do
     resources :users
   end
 
-  namespcace :api do
+  namespace :api do
     namespace :v1 do
       resources :tasks, only: [:index, :show, :create, :update, :destroy]
     end
